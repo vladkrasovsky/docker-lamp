@@ -1,0 +1,12 @@
+/data/logs/**
+!/data/logs/.gitkeep
+/data/mysql/**
+!/data/mysql/.gitkeep
+
+# Файли web-проектів
+/sites/**
+!/sites/.gitkeep
+
+# Інші файли
+.idea/
+.DS_Store
