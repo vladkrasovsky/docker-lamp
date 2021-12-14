@@ -1,3 +1,5 @@
+/config/nginx/**
+!/config/nginx/hello.conf
 /data/certs/**
 !/data/certs/server.crt
 !/data/certs/server.csr
