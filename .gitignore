@@ -1,3 +1,7 @@
+/data/certs/**
+!/data/certs/server.crt
+!/data/certs/server.csr
+!/data/certs/server.key
 /data/logs/**
 !/data/logs/.gitkeep
 /data/mysql/**

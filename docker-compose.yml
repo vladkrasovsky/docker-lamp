@@ -14,11 +14,13 @@ services:
         # Ниже прокидываем порты. NGINX в контейнере работает на дефолтном 80, а мы возьмем 8000
         ports:
           - "80:80"
+          - "443:443"
         # Монтируем директории, слева директории на основной системе, справа - куда они монтируются в контейнере
         volumes:
           - ./sites:/var/www
           - ./config/nginx:/etc/nginx/conf.d
           - ./data/logs:/var/log/nginx/
+          - ./data/certs:/etc/nginx/certs
         # Зависимости  
         depends_on:
           - php
