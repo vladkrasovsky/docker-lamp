@@ -15,6 +15,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     curl \
     git \
     wget \
+    ssh \
     libcurl4 \
     libcurl4-openssl-dev \
     zlib1g-dev \
